@@ -2,6 +2,20 @@
 
 App nativa SwiftUI (iOS 17+) per tracciare entrate e uscite giornaliere e mensili, ispirata a Money Coach. I dati restano sul telefono (SwiftData), niente account né abbonamenti.
 
+## Usarla subito sull'iPhone, senza Mac (web app)
+
+Nella cartella `docs/` c'è una versione web installabile con le stesse funzioni, pubblicata su GitHub Pages:
+
+**https://peppef7.github.io/In-Out/**
+
+1. Apri il link con **Safari** sull'iPhone.
+2. Tocca **Condividi** (il quadrato con la freccia) e poi **Aggiungi a Home**.
+3. Apri l'app dall'icona "Spese": parte a schermo intero e funziona anche offline.
+
+I dati restano salvati solo sul telefono. Da Impostazioni › Salva backup puoi esportarli ogni tanto, perché vanno persi se rimuovi l'app dalla Home o cancelli i dati di Safari.
+
+Il resto di questo file riguarda la versione nativa SwiftUI, che richiede un Mac.
+
 ## Cosa fa
 
 - **Panoramica**: saldo del mese, totale entrate e uscite, media di spesa giornaliera, grafico delle spese giorno per giorno, ultimi movimenti.
